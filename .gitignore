@@ -1,0 +1,131 @@
+/dataCache/
+/rawdata/*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Database
+datu.db
+*.sqlite3
+*.sqlite
+
+# Logs
+*.log
+logs/
+log/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local development settings
+local_settings.py
+
+# /merge文件夹
+/merge/*/crop/
+/merge/*/image/
+/process/merge/model
+/merge/demo98
+/merge/demo97
+
+# /data文件夹
+
+tmp_add_date.py
+tmp_calculate_center.py
+tmp_process_merge_config.py
+database/datu_impute.db-shm
+database/datu_impute.db-wal
+tmp_pcs_datu_test_db.py
+tmp_test_detect.py
+tmp_test_merge.py
+tmp_test.py
+tmp_test_diagnose.py
+test_check_history.py
+tmp_test_impute.py
+requres.txt
+tmp_count_json.py
+tmp_export_2024_06_datu.py
+temp_test_predict.py
+
+# 清洗模块/saving 模型文件夹
+saving/
+
+# 临时脚本
+temp.py
+test_schedule_impute.py
+指令.txt
+temp_test_diagnose.py
+temp_sqlite2mariadb.py
+test-backend-ultra.tar
+临时指令.txt
+temp_test_detect.py
+temp_test_postprocess.py
+merge.zip
+temp_test_impute_frontend.py
+temp_test_impute.py

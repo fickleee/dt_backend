@@ -1,0 +1,43 @@
+# Core dependencies
+numpy==1.26.0
+pandas==2.2.2
+torch==2.2.2
+pypots==0.18.0
+Flask==3.0.3
+
+# Data processing and scientific computing
+scikit-learn==1.5.2
+scipy==1.15.2
+
+
+# Time series specific
+ai4ts>=0.0.3
+benchpots==0.4
+tsdb==0.7.1
+pygrinder==0.7
+
+# Utilities
+tqdm==4.67.1
+pytz>=2024.2
+
+# File handling
+openpyxl==3.1.5
+umap-learn>=0.5.6
+
+# JWT dependencies
+PyJWT==2.8.0
+python-dotenv==1.0.0
+
+# Diagnosis
+sktime==0.34.0
+tsai==0.3.9
+ipykernel
+fastcore==1.7.29
+fastai==2.7.19
+
+# Schedule
+APScheduler==3.11.0
+
+# Schema
+PyMySQL==1.1.1
+SQLAlchemy==2.0.41

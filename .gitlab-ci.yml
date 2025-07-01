@@ -1,0 +1,25 @@
+variables:
+  CI_DEPLOY_NAME: "$CI_PROJECT_NAME"
+  CI_IMAGE_URL: "registry.zjuidg.org/datang-2024/datangbackend"
+
+stages:
+  - build
+
+build-arm64:
+  stage: build
+  image: docker:latest
+  script:
+    - apt-get update -y && apt-get install openssh-client -y
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$BUILD_SERVER_SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - docker buildx create --name remote --node remote --platform linux/arm64 --driver=docker-container ssh://datang@oracle.rnmtq.cn:35422
+    - docker buildx use remote
+    - docker buildx build --platform=linux/arm64 -t ${CI_IMAGE_URL}:latest --output type=docker,dest=./datangbackend-arm64.tar .
+  artifacts:
+    paths:
+      - datangbackend-arm64.tar
+    expire_in: 1 week
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master" || $CI_COMMIT_BRANCH == "master_06_09"'

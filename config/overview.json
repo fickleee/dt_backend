@@ -1,0 +1,166 @@
+{
+    "memo": "现在的数据为测试数据，不真实；电站的volume、location等数据还需要向大唐确认",
+    "dailyGeneration": 300,
+    "monthlyGeneration": 5041,
+    "cumulativeGeneration": 164167,
+    "cumulativeLossGeneration": 165145,
+    "cumulativeFaultInverterDetection": 386,
+    "cumulativeFaultDetection": 4369,
+    "toOMInverterFault": 386,
+    "toOMFault": 4369,
+    "estimatedLoss": 165145,
+    "level1OMQuantity": 124,
+    "level2OMQuantity": 14,
+    "level3OMQuantity": 10,
+    "stringAnomalyData": {
+        "surfaceStain": 3722,
+        "diodeFault": 635,
+        "circuitFault": 12
+    },
+    "stationData": [
+        {
+            "name": "大峃光伏电站",
+            "shortName": "大峃",
+            "label": "daxue",
+            "planPowerGeneration": 200,
+            "powerGeneration": 260,
+            "auxiliaryPowerRate": 11,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.45133505598621876,
+            "volume": 25,
+            "geo": [
+                120.0892,
+                27.8387
+            ],
+            "location": "浙江省文成县大峃镇",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 1048
+        },
+        {
+            "name": "大唐长大涂光伏电站",
+            "shortName": "长大涂",
+            "label": "datu",
+            "planPowerGeneration": 3195,
+            "powerGeneration": 2796,
+            "auxiliaryPowerRate": 182,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.0,
+            "volume": 300,
+            "geo": [
+                121.77,
+                29.13
+            ],
+            "location": "浙江省宁波市象山县",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 0
+        },
+        {
+            "name": "唐景光伏电站",
+            "shortName": "唐景",
+            "label": "tangjing",
+            "planPowerGeneration": 401,
+            "powerGeneration": 493,
+            "auxiliaryPowerRate": 25,
+            "dataAnomalyRate": 0.8,
+            "lowEfficiencyAnomalyRate": 0.008611111111111111,
+            "volume": 52,
+            "geo": [
+                119.745923,
+                28.004601
+            ],
+            "location": "浙江省丽水市景宁畲族自治县半垟村",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 31
+        },
+        {
+            "name": "浙江大唐唐云光伏电站",
+            "shortName": "唐云",
+            "label": "tangyun",
+            "planPowerGeneration": 277,
+            "powerGeneration": 292,
+            "auxiliaryPowerRate": 15,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.08528265107212475,
+            "volume": 30,
+            "geo": [
+                120.216667,
+                28.766667
+            ],
+            "location": "浙江省丽水市缙云县东方镇",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 175
+        },
+        {
+            "name": "大唐乌沙山厂区光伏电站",
+            "shortName": "乌沙山",
+            "label": "wushashan",
+            "planPowerGeneration": 358,
+            "powerGeneration": 279,
+            "auxiliaryPowerRate": 18,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.0,
+            "volume": 43.2,
+            "geo": [
+                121.483333,
+                29.5
+            ],
+            "location": "浙江省宁波市象山县西周镇",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 0
+        },
+        {
+            "name": "大唐文成县二源光伏电站",
+            "shortName": "二源",
+            "label": "eryuan",
+            "planPowerGeneration": 225,
+            "powerGeneration": 254,
+            "auxiliaryPowerRate": 8,
+            "dataAnomalyRate": 0.24,
+            "lowEfficiencyAnomalyRate": 0.0542432195975503,
+            "volume": 23,
+            "geo": [
+                120.0252,
+                27.5305
+            ],
+            "location": "浙江省文成县二源镇",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 124
+        },
+        {
+            "name": "浙江万市光伏电站",
+            "shortName": "富阳",
+            "label": "fuyang",
+            "planPowerGeneration": 320,
+            "powerGeneration": 282,
+            "auxiliaryPowerRate": 20,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.6009199134199135,
+            "volume": 31,
+            "geo": [
+                119.5443,
+                30.117
+            ],
+            "location": "浙江省杭州市富阳区万市镇三九山",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 2221
+        },
+        {
+            "name": "唐屿光伏电站",
+            "shortName": "马屿",
+            "label": "mayu",
+            "planPowerGeneration": 160,
+            "powerGeneration": 385,
+            "auxiliaryPowerRate": 20,
+            "dataAnomalyRate": 0.0,
+            "lowEfficiencyAnomalyRate": 0.14853395061728394,
+            "volume": 40,
+            "geo": [
+                120.7083,
+                27.8333
+            ],
+            "location": "浙江省温州市瑞安市马屿镇",
+            "level1OMQuantity": 12,
+            "inefficientStringNumber": 770
+        }
+    ]
+}
