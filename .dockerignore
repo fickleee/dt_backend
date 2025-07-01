@@ -4,8 +4,6 @@
 .vscode/
 .git/
 rawdata/
-config/
-merge/
 logs/
 process/impute/model/
 process/diagnose/model/
