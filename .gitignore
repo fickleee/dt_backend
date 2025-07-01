@@ -41,7 +41,6 @@ venv.bak/
 *.sublime-project
 
 # Database
-datu.db
 *.sqlite3
 *.sqlite
 
