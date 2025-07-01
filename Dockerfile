@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # TODO: Fix the requirements.txt file
 ## The diagnose module use a different python version thus the listed enviroment config is incorrect.
 ## The below line is just for the deployment test in March.
-
+COPY database/user.db /app/database/user.db
 # Copy the rest of the application code into the container
 COPY . .
 
