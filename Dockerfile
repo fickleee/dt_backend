@@ -31,4 +31,4 @@ COPY . .
 EXPOSE 1022
 
 # Define the command to run the application
-CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:1022", "app:app"]
