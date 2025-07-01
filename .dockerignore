@@ -3,14 +3,11 @@
 .idea/
 .vscode/
 .git/
-data/
 rawdata/
 config/
 merge/
-database/
 logs/
 process/impute/model/
-process/impute/model_multivariate/
 process/diagnose/model/
 process/merge/model/
 process/predict/models/
