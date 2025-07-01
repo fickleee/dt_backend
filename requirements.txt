@@ -4,6 +4,7 @@ pandas==2.2.2
 torch==2.2.2
 pypots==0.18.0
 Flask==3.0.3
+Flask-Cors
 
 # Data processing and scientific computing
 scikit-learn==1.5.2

@@ -24,8 +24,11 @@ import zipfile
 import io
 import logging
 import base64
+from flask_cors import CORS # 导入 Flask-CORS
 
 app = Flask(__name__)
+
+CORS(app, resources={r"/*": {"origins": "https://dt-frontend-two.vercel.app"}})
 
 # 获取当前环境变量，默认为development（通过在命令行中设置）
 env_name = os.getenv("APP_ENV", "development").strip()
