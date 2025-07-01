@@ -1,0 +1,18 @@
+[
+  {
+    "merge_id": 1,
+    "dpocr": "99-99-99",
+    "dpclx": 617.0,
+    "dpcly": 534.0,
+    "dpcrx": 793.0,
+    "dpcry": 586.0,
+    "dp_img_name": "wanshi_1_0.jpg",
+    "matched_results": {
+      "99,99,99": {
+        "proximity": 0,
+        "gpocx": 121.78196771703,
+        "gpocy": 29.15065147887092
+      }
+    }
+  }
+]
